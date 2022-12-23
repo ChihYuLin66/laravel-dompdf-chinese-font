@@ -1,0 +1,26 @@
+{
+    "name": "chihyulin66/dompdf-chinese-font",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ChihYuLin66\\DompdfChineseFont\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "chihyulin",
+            "email": "chihyulin66@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-json": "*",
+        "barryvdh/laravel-dompdf": "^0.9.0",
+        "symfony/process": "5.4.x-dev"
+    },
+    "require-dev": {
+        "illuminate/support": "^5"
+    }
+    
+}
